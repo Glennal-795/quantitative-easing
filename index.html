@@ -1,78 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quantitative Easing (QE)</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quantitative Easing ($QE) – Future of Crypto Liquidity</title>
+  <link rel="icon" href="favicon.ico">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
       margin: 0;
-      padding: 0;
-      color: #222;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #1a1a1a;
     }
+
     header {
-      background: #000;
-      color: #fff;
-      padding: 30px 20px;
+      background-color: #000000;
+      color: white;
+      padding: 40px 20px;
       text-align: center;
     }
+
     header h1 {
+      font-size: 2.8rem;
       margin: 0;
-      font-size: 2.5rem;
     }
+
     header p {
-      margin: 10px 0 0;
       font-size: 1.2rem;
-      color: #ccc;
+      margin-top: 10px;
     }
-    main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
+
     section {
-      padding: 30px 20px;
-      border-bottom: 1px solid #eee;
+      padding: 60px 20px;
+      text-align: center;
     }
-    section:last-child {
-      border-bottom: none;
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
     }
-    h2 {
-      color: #000;
-      margin-top: 0;
+
+    .tokenomics {
+      text-align: left;
+      margin-top: 20px;
+      font-size: 1.1rem;
     }
-    .tokenomics ul {
-      list-style: none;
-      padding: 0;
+
+    ul {
+      padding-left: 20px;
+      list-style: disc;
     }
-    .tokenomics li {
-      margin: 8px 0;
-    }
-    .button {
+
+    .btn {
       display: inline-block;
-      background: #000;
-      color: #fff;
-      padding: 12px 25px;
-      border-radius: 5px;
+      margin-top: 20px;
+      background-color: #000;
+      color: white;
+      padding: 15px 30px;
       text-decoration: none;
       font-weight: bold;
+      border-radius: 6px;
+      transition: background 0.3s;
     }
-    .button:hover {
-      background: #444;
+
+    .btn:hover {
+      background-color: #222;
     }
+
+    .coming-links {
+      margin-top: 40px;
+      font-size: 1.1rem;
+    }
+
+    .roadmap-img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
     footer {
+      background-color: #000;
+      color: white;
       text-align: center;
-      padding: 20px;
+      padding: 30px 10px;
       font-size: 0.9rem;
-      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .btn {
+        padding: 12px 20px;
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -80,40 +107,51 @@
     <p>$QE – The Future of Crypto Liquidity</p>
   </header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p><strong>Quantitative Easing ($QE)</strong> is a Binance Smart Chain token combining financial insight with decentralized power. This isn’t just another meme — it’s a movement. With locked liquidity, transparent tokenomics, and a strong roadmap, SQE is designed to reward holders and attract serious long-term believers.</p>
-    </section>
+  <section id="about">
+    <div class="container">
+      <p><strong>Quantitative Easing ($QE)</strong> is a Binance Smart Chain token combining financial insight with decentralized power. This isn’t just another meme — it’s a movement. With locked liquidity, transparent tokenomics, and a strong roadmap, $QE is designed to reward holders and attract serious long-term believers.</p>
+    </div>
+  </section>
 
-    <section class="tokenomics">
+  <section id="tokenomics">
+    <div class="container">
       <h2>📊 Tokenomics</h2>
-      <ul>
-        <li><strong>Total Supply:</strong> 1,000,000,000 QE</li>
-        <li><strong>Presale:</strong> 500,000,000 QE</li>
-        <li><strong>Locked Liquidity:</strong> 300,000,000 QE</li>
-        <li><strong>Team/Marketing Reserve:</strong> 200,000,000 QE</li>
-      </ul>
-    </section>
+      <div class="tokenomics">
+        <ul>
+          <li><strong>Total Supply:</strong> 1,000,000,000 QE</li>
+          <li><strong>Presale:</strong> 500,000,000 QE</li>
+          <li><strong>Locked Liquidity:</strong> 300,000,000 QE</li>
+          <li><strong>Team/Marketing Reserve:</strong> 200,000,000 QE</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <section>
+  <section id="presale">
+    <div class="container">
       <h2>🚀 Launch Info</h2>
       <p>Presale launching on PinkSale.</p>
-      <a href="#" class="button">Join Presale</a>
-    </section>
+      <a href="#" class="btn">Join Presale</a>
+    </div>
+  </section>
 
-    <section>
-      <h2>📣 Connect with Us</h2>
-      <p>
-        🔗 Follow us on <strong>X (formerly Twitter)</strong>:<br/>
-        <a href="https://x.com/QEtoken" target="_blank">@QEtoken</a>
-      </p>
-      <p style="color: red;"><strong>⚠️ No Telegram:</strong> To protect our community from scams, we do <u>not</u> use Telegram. Please do not trust any group or channel claiming to represent QE.</p>
-    </section>
-  </main>
+  <section id="roadmap" style="background-color: #f9f9f9;">
+    <div class="container">
+      <h2>🗺️ Roadmap</h2>
+      <p>Here’s a visual overview of our phased launch strategy:</p>
+      <img src="A_roadmap_infographic_showcases_the_Quantitative_E.png" alt="QE Token Roadmap" class="roadmap-img">
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container coming-links">
+      <h2>📱 Stay Connected</h2>
+      <p>We’re not using Telegram. <br><strong>Contact us through <a href="https://x.com/QEtoken" target="_blank">@QEtoken on X (formerly Twitter)</a></strong></p>
+    </div>
+  </section>
 
   <footer>
-    &copy; 2025 Quantitative Easing. All rights reserved.
+    &copy; 2025 Quantitative Easing ($QE). All rights reserved.
   </footer>
 
 </body>
